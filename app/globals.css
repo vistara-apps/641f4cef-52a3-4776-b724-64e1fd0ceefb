@@ -9,6 +9,9 @@
   --surface: hsl(0, 0%, 100%);
   --text-primary: hsl(210, 30%, 15%);
   --text-secondary: hsl(210, 30%, 40%);
+  --shadow-card: 0 4px 12px hsla(210, 30%, 15%, 0.08);
+  --shadow-modal: 0 16px 48px hsla(210, 30%, 15%, 0.12);
+  --radius: 8px;
 }
 
 * {
@@ -26,15 +29,7 @@ body {
   color: var(--text-primary);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 a {
   color: inherit;

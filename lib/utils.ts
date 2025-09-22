@@ -1,7 +1,8 @@
 import { type ClassValue, clsx } from 'clsx';
+import { twMerge } from 'tailwind-merge';
 
 export function cn(...inputs: ClassValue[]) {
-  return clsx(inputs);
+  return twMerge(clsx(inputs));
 }
 
 // Format date for display
@@ -106,7 +107,7 @@ export function filterBySearch<T extends Record<string, any>>(
         return value.toLowerCase().includes(lowercaseQuery);
       }
       if (Array.isArray(value)) {
-        return value.some(v => 
+        return value.some((v: any) =>
           typeof v === 'string' && v.toLowerCase().includes(lowercaseQuery)
         );
       }
