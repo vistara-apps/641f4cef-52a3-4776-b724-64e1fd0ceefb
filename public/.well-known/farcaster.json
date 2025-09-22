@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "HealthPulse Hub",
+    "subtitle": "Built with Zara",
+    "description": "HealthPulse Hub is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app",
+    "splashImageUrl": "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app/image.png",
+    "tagline": "HealthPulse Hub",
+    "screenshotUrls": [
+      "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app/screenshot.png",
+      "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://641f4cef52a34776b72464e1fd0ceefb-j9q0.vercel.app/api/webhook"
+  }
+}
